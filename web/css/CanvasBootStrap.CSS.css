@@ -19,3 +19,31 @@ div{
 .flex-row{
     flex: 1 0 auto;
 }
+
+.card{
+    border: 1px solid #000;
+    min-height: 300px;
+    flex: 1 0 auto;
+}
+
+.BotãoCor {
+
+    width: 100px;
+    height: 35px;
+    border: none;
+    
+    transition: 0.4s;
+    background-color: #098147;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    
+    color: white;
+}
+
+
+
+
+.BotãoCor:hover {
+    background-color: #004824;
+}
